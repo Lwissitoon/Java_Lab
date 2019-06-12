@@ -1,7 +1,8 @@
 public class HolaMundo{
-	public static void main(String nombre , String apellido,String edad,String sexo){
+	public static void main(String [] args){
 		
-		System.out.println(nombre+" "+apellido+" "+edad+" "+sexo);
+   	 for ( int i = 0; i < args.length; i++ )      
+   	    System.out.println( args[i] );
 		
 		//1000260660_LUIS_MATEO_HOOTSUITE
 		//100267532 - Bryan GUZMAN - Facebook
